@@ -1,0 +1,39 @@
+#dad {
+	border: 2px solid black;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	width:700px;
+	-webkit-box-pack:center;
+	
+	/* using the -webkit-box-flex to give equal amount according to the dad section
+	-webkit-box-align: to align inside the parent box*/
+	
+}
+#dan1 {
+	border:2px solid red;
+	background:yellow;
+	margin:10px;
+	padding:20px;
+	-webkit-box-flex:1;
+}
+#dan2 {
+	border:2px solid red;
+	background:blue;
+	margin:10px;
+	padding:20px;
+	-webkit-box-flex:1;
+}
+#dan3 {
+	border:2px solid red;
+	background:red;
+	margin:10px;
+	padding:20px;
+	-webkit-box-flex:1;
+}
+#dan4 {
+	border:2px solid red;
+	background:grey;
+	margin:10px;
+	padding:20px;
+	-webkit-box-flex:1;
+}
